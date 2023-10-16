@@ -22,6 +22,7 @@ hv.output(size=400)
 
 # Title of the app
 st.title('Chord Diagram App')
+st.write(f'[Amir Rafe](https://www.linkedin.com/in/amir-rafe-08770854/)')
 
 # Load dataset
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
