@@ -27,7 +27,7 @@ pip install -r requirements.txt
 If you want to run the OD chord diagram generator as a Streamlit app, follow these steps:
 - **Navigate to your project directory:**
 ```bash
-cd path/to/your/project
+cd directory path
 ```
 - **Run your Streamlit app:**
 ```bash
