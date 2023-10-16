@@ -22,3 +22,12 @@ This project and PedAnomaly.ipynb notebook require Python and the following Pyth
 To install the Python packages, navigate to the local directory where you have cloned this repository and run the following command:
 ```bash
 pip install -r requirements.txt
+
+## Running Streamlit app locally
+If you want to run the OD chord diagram generator as a Streamlit app, follow these steps:
+- **Navigate to your project directory:**
+```bash
+cd path/to/your/project
+- **Run your Streamlit app:**
+```bash
+streamlit run chord.py
