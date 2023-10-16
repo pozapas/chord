@@ -106,6 +106,7 @@ if uploaded_file is not None:
 
     # Display Chord Diagram for all cities
     st.subheader('Chord Diagram - All Cities')
+    st.write(hv.render(chord_1_plot, backend='bokeh'))
     chord_1_plot = hv.render(Chord_1, backend='bokeh')
     st.bokeh_chart(chord_1_plot)
 
