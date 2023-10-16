@@ -11,7 +11,7 @@ This repository contains code to visualize Origin-Destination (OD) matrices usin
 - **Customizable Visuals:** Parameters can be adjusted to modify the appearance and layout of the chord diagram to better match the dataset's specifics.
 
 ## Installation
-This project and PedAnomaly.ipynb notebook require Python and the following Python packages installed:
+This project and Chord.ipynb notebook require Python and the following Python packages installed:
 - streamlit
 - pandas
 - numpy
