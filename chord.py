@@ -74,7 +74,7 @@ if uploaded_file is not None:
     Chord_1 = chord * labels
 
     # Save chord diagram as a Html
-    hv.save(Chord_1, 'Chord_Ostani.html', backend='bokeh')
+    #hv.save(Chord_1, 'Chord_Ostani.html', backend='bokeh')
 
     ##########Chord_busiest_cities#############
     route_counts = links
@@ -108,7 +108,7 @@ if uploaded_file is not None:
     Chord_2 = busiest_Links * labels
 
     # Save chord diagram as a Html
-    hv.save(Chord_2, 'Chord_Ostani_busiest.html', backend='bokeh')
+    #hv.save(Chord_2, 'Chord_Ostani_busiest.html', backend='bokeh')
 
     # Display Chord Diagram for all cities
     st.subheader('Chord Diagram - All Cities')
