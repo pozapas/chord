@@ -112,12 +112,15 @@ if uploaded_file is not None:
 
     # Display Chord Diagram for all cities
     st.subheader('Chord Diagram - All Cities')
-    chord_1_plot = hv.render(Chord_1, backend='bokeh')
-    st.bokeh_chart(chord_1_plot)
+    st.write(hv.render(Chord_1, backend='bokeh'))
+    #chord_1_plot = hv.render(Chord_1, backend='bokeh')
+    #st.bokeh_chart(chord_1_plot)
 
     # Display Chord Diagram for busiest cities
     st.subheader('Chord Diagram - Busiest Cities')
-    chord_2_plot = hv.render(Chord_2, backend='bokeh')
-    st.bokeh_chart(chord_2_plot)
+    st.write(hv.render(Chord_2, backend='bokeh'))
+    #chord_2_plot = hv.render(Chord_2, backend='bokeh')
+    #st.bokeh_chart(chord_2_plot)
+    
 
 ##############END###################
