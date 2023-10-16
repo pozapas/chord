@@ -10,7 +10,15 @@ This repository contains code to visualize Origin-Destination (OD) matrices usin
 
 - **Customizable Visuals:** Parameters can be adjusted to modify the appearance and layout of the chord diagram to better match the dataset's specifics.
 
-## Usage:
-- **Jupyter Notebook:** Run the notebook to process your OD matrix data and generate the chord diagram. The notebook contains detailed annotations and step-by-step procedures to guide you.
-
-- **Streamlit App:** Launch the Streamlit app locally to interactively visualize your OD matrix using the chord diagram. Follow the provided instructions to upload your data and adjust visualization parameters.
+## Installation
+This project and PedAnomaly.ipynb notebook require Python and the following Python packages installed:
+- streamlit
+- pandas
+- numpy
+- colorcet
+- holoviews
+- bokeh
+  
+To install the Python packages, navigate to the local directory where you have cloned this repository and run the following command:
+```bash
+pip install -r requirements.txt
