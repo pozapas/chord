@@ -1,7 +1,10 @@
 # OD Matrix Chord Diagram Generator
 This repository contains code to visualize Origin-Destination (OD) matrices using a chord diagram. The repository includes a Jupyter Notebook (ipynb) for data processing and visualization, as well as a Streamlit app for interactive web-based representation of the chord diagram.
+
 ![All_Cities](https://github.com/pozapas/chord/blob/main/All_cities.gif)
+
 ![Busiest_cities](https://github.com/pozapas/chord/blob/main/Busiest_cities.gif)
+
 ## Key Features:
 - *Interactive Chord Diagram:* Offers a clear and intuitive way to understand the flow and magnitude between different origins and destinations in the OD matrix.
 
