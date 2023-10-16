@@ -36,3 +36,6 @@ cd directory path
 - **Run your Streamlit app:**
 ```bash
 streamlit run chord.py
+```
+
+![chord_streamlit](https://github.com/pozapas/chord/blob/main/chord.gif)
